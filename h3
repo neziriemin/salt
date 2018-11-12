@@ -1,6 +1,6 @@
 # Kurssin pitäjänä toimii Tero Karvinen.
 
-Työvälineihin kuuluu oma tietokone (Acer Aspire V15 Touche), internet yhteys sekä DataTravel USB livetikku, tikulle on asennettu xUbuntu.
+Työvälineisiin kuuluu oma tietokone (Acer Aspire V15 Touche), internet yhteys sekä DataTravel USB livetikku, tikulle on asennettu xUbuntu.
 
 Tehtävän löytyy linkistä: http://terokarvinen.com/2018/aikataulu-%e2%80%93-palvelinten-hallinta-ict4tn022-3004-ti-ja-3002-to-%e2%80%93-loppukevat-2018-5p
 
@@ -14,7 +14,7 @@ c) Laita /srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneell
  Kopioin repositoryn tietokoneen srv kansioon komennolla "git clone:kloonauslinkki_löytyy_githubista", HUOM. srv kansioon tarvitsee sudo oikeudet jotta muutoksia voi tehdä. Tein muutoksia README.md tiedostoon, tallensin sen ja annoin komentoriviltä komennon "$ git add . && git commit; git pull && git push", kun tein tämän ensimmäisen kerran, git pyysi antamaan github käyttäjätunnuksen ja salasanan.
  Avasin githubin ja näin että kyseiset muutokset tuli voimaan.
  
- Viimeiseksi, kloonasin tekemäni salt repositoryn uudelle konneelle.
+ Viimeiseksi, kloonasin tekemäni salt repositoryn uudelle koneelle.
   
  Ohjeet gitin asentamiseen löytyvät linkistä: http://terokarvinen.com/2016/publish-your-project-with-github
 
@@ -44,7 +44,7 @@ Tällä komennolla näkyy muutokset joita ei ole vielä tallennettu.
 
 4689be34 (Emin 2018-11-12 11:52:21 +0000  1) # Kurssin pitäjänä toimii Tero Karvinen.
 4689be34 (Emin 2018-11-12 11:52:21 +0000  2) 
-416af8d6 (Emin 2018-11-12 12:19:48 +0000  3) Työvälineihin kuuluu oma tietokone (Acer Aspire V15 Touche), internet yhteys sekä DataTravel USB livetikku, tikulle on asennettu xUbuntu.
+416af8d6 (Emin 2018-11-12 12:19:48 +0000  3) Työvälineisiin kuuluu oma tietokone (Acer Aspire V15 Touche), internet yhteys sekä DataTravel USB livetikku, tikulle on asennettu xUbuntu.
 416af8d6 (Emin 2018-11-12 12:19:48 +0000  4) 
 
 Tällä komennolla näkyy ketä on tehnyt muutokset ja mihin aikaan. Komentoa voi käyttää hyväkseen esim ryhmätyöskentelyssä.
@@ -56,9 +56,9 @@ e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘gi
 
 f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
 
-Automatisoin sysstatin. Tein sysstatin automatisoiniin jo viimeviikon h2 tehtävässä.
+Automatisoin sysstatin. Tein sysstatin automatisoinnin viimeviikolla h2 tehtävässä.
 
-Käytin viimeviikon ohjeita tässä tehtävässä. Eli asensin sysstatin, kopioin etc/default hakemistossa olevan sysstat tiedoston /srv/salt hakemistoon, loin sls tiedoston johon lisäsis paketin latauksen, ja uudelleenkäynnistyksen watch tekniikalla.
+Käytin h2  ohjeita tässä tehtävässä. Eli asensin sysstatin, kopioin etc/default hakemistossa olevan sysstat tiedoston /srv/salt hakemistoon, loin sls tiedoston johon lisäsin paketin latauksen, ja uudelleenkäynnistyksen watch tekniikalla.
 
 Ohjeet löytyy linkistä: https://linuxtehtavatdotblog.wordpress.com/2018/11/06/palvelinten-hallinta-h2/
 
