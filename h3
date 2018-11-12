@@ -40,6 +40,16 @@ index d2dc797..aec402c 100644
 
 Tällä komennolla näkyy muutokset joita ei ole vielä tallennettu. 
  
+ Komento git blame h3:
+
+4689be34 (Emin 2018-11-12 11:52:21 +0000  1) # Kurssin pitäjänä toimii Tero Karvinen.
+4689be34 (Emin 2018-11-12 11:52:21 +0000  2) 
+416af8d6 (Emin 2018-11-12 12:19:48 +0000  3) Työvälineihin kuuluu oma tietokone (Acer Aspire V15 Touche), internet yhteys sekä DataTravel USB livetikku, tikulle on asennettu xUbuntu.
+416af8d6 (Emin 2018-11-12 12:19:48 +0000  4) 
+
+Tällä komennolla näkyy ketä on tehnyt muutokset ja mihin aikaan. Komentoa voi käyttää hyväkseen esim ryhmätyöskentelyssä.
+ 
+
 e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
