@@ -52,4 +52,6 @@ Tällä komennolla näkyy ketä on tehnyt muutokset ja mihin aikaan. Komentoa vo
 
 e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
+ Poistin salt kansiosta README.md tiedoston. Annoin komennon "git reset --hard" jolla sain takaisin viimeiseksi tallentamani tilan. Eli README.md tiedosto palautui.
+
 f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
