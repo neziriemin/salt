@@ -1,2 +1,2 @@
 # salt
-Importing salt to github
+Importing salt to github.
