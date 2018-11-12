@@ -63,3 +63,14 @@ Käytin h2  ohjeita tässä tehtävässä. Eli asensin sysstatin, kopioin etc/de
 Ohjeet löytyy linkistä: https://linuxtehtavatdotblog.wordpress.com/2018/11/06/palvelinten-hallinta-h2/
 
 Lisäsin kansiot githubiin ja siirryin eri koneelle. Toisella koneella kirjauduin githubiin ja kopioin kaikki aikaisemmin tehdyt tehtävät uudelle koneelle. Annoin komennon " sudo salt '*' state.apply sysstat ". komento toimi ja sain sysstatin asennettua ilman virheilmoituksia.
+
+Lähteet:
+
+Tero Karvinen 
+http://terokarvinen.com/
+Salt minion & master http://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux
+States http://terokarvinen.com/2018/pkg-file-service-control-daemons-with-salt-change-ssh-server-port
+Github ABC http://terokarvinen.com/2016/publish-your-project-with-github
+
+Emin Neziri
+https://wordpress.com/post/linuxtehtavatdotblog.wordpress.com/100
