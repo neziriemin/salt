@@ -55,3 +55,11 @@ e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘gi
  Poistin salt kansiosta README.md tiedoston. Annoin komennon "git reset --hard" jolla sain takaisin viimeiseksi tallentamani tilan. Eli README.md tiedosto palautui.
 
 f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
+
+Automatisoin sysstatin. Tein sysstatin automatisoiniin jo viimeviikon h2 tehtävässä.
+
+Käytin viimeviikon ohjeita tässä tehtävässä. Eli asensin sysstatin, kopioin etc/default hakemistossa olevan sysstat tiedoston /srv/salt hakemistoon, loin sls tiedoston johon lisäsis paketin latauksen, ja uudelleenkäynnistyksen watch tekniikalla.
+
+Ohjeet löytyy linkistä: https://linuxtehtavatdotblog.wordpress.com/2018/11/06/palvelinten-hallinta-h2/
+
+Lisäsin kansiot githubiin ja siirryin eri koneelle. Toisella koneella kirjauduin githubiin ja kopioin kaikki aikaisemmin tehdyt tehtävät uudelle koneelle. Annoin komennon " sudo salt '*' state.apply sysstat ". komento toimi ja sain sysstatin asennettua ilman virheilmoituksia.
