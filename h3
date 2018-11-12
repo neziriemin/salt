@@ -20,6 +20,26 @@ c) Laita /srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneell
 
 d) Näytä omalla salt-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
+ Komento git log: 
+
+commit 73d5f379875d26ab62a81592f4914035ad0a768b
+Author: Emin <neziriemin1@gmail.com>
+Date:   Mon Nov 12 11:36:44 2018 +0000
+
+    just a test
+ 
+Tällä komennolla näkyy muutokset jotka on tallennettu, sekä tiedot siitä että kuka on tehnyt muutokset ja mihin aikaan ne tehtiin.
+
+ Komento git diff
+
+ diff --git a/h3 b/h3
+index d2dc797..aec402c 100644
+--- a/h3
++++ b/h3
+@@ -20,6 +20,16 @@ c
+
+Tällä komennolla näkyy muutokset joita ei ole vielä tallennettu. 
+ 
 e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
