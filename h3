@@ -11,7 +11,12 @@ c) Laita /srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneell
 
  Aloitin tehtävän asentamalla gitin komennolla "sudo apt-get -y install git", sekä antamalla käskyn jolla git ei pyydä jatkuvasti näppäilemään salasanaa kun kopioin muutokset gitistä githubiin "$ git config --global credential.helper "cache --timeout=3600" ".
  Tämän jälkeen kirjauduin githubiin aikaisemmin tehdyillä tunnuksilla ja loin sinne uuden "repositoryn" nimeltä salt. 
- Kopioin repositoryn tietokoneen srv kansioon komennolla "git clone:kloonauslinkki_löytyy_githubista", HUOM. srv kansioon tarvitsee sudo oikeudet jotta muutoksia voi tehdä. Tein muutoksia README.md tiedostoon, tallensin sen ja annoin komentoriviltä komennon "$ git add . && git commit; git pull && git push", kun tein tämän ensimmäisen kerran, git pyysi antamaan github käyttäjätunnuksen ja salasanan. Avasin githubin ja näin että kyseiset muutokset tuli voimaan.  
+ Kopioin repositoryn tietokoneen srv kansioon komennolla "git clone:kloonauslinkki_löytyy_githubista", HUOM. srv kansioon tarvitsee sudo oikeudet jotta muutoksia voi tehdä. Tein muutoksia README.md tiedostoon, tallensin sen ja annoin komentoriviltä komennon "$ git add . && git commit; git pull && git push", kun tein tämän ensimmäisen kerran, git pyysi antamaan github käyttäjätunnuksen ja salasanan.
+ Avasin githubin ja näin että kyseiset muutokset tuli voimaan.
+ 
+ Viimeiseksi, kloonasin tekemäni salt repositoryn uudelle konneelle.
+  
+ Ohjeet gitin asentamiseen löytyvät linkistä: http://terokarvinen.com/2016/publish-your-project-with-github
 
 d) Näytä omalla salt-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
