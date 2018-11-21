@@ -4,5 +4,5 @@
 echo "Updating packages and installing salt-minion"
 sudo apt -y update
 sudo apt -y install salt-minion
-echo -e 'master: localhost\nid: orja' |sudo tee /etc/salt/minion
+echo -e 'master: 192.168.1.83 \nid: orja' |sudo tee /etc/salt/minion
 sudo systemctl restart salt-minion
