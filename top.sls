@@ -1,3 +1,5 @@
 base:
   '*':
-    - ohjelmat
+    - gimpdir
+    - programs
+    - apache2
